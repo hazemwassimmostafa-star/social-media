@@ -1,0 +1,40 @@
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.profile-img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ffffff;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.profile-content .page-title {
+  margin-bottom: 0;
+}
+
+.profile-meta {
+  color: #6b7280;
+}

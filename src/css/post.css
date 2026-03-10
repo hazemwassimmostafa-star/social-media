@@ -1,0 +1,98 @@
+.composer-card,
+.post-card,
+.comment-card {
+  margin-bottom: 18px;
+}
+
+.post-form,
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.post-header,
+.comment-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.post-user,
+.comment-user {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.post-date,
+.comment-date {
+  margin-top: 2px;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.post-actions,
+.comment-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.post-body,
+.comment-body {
+  margin-top: 12px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.post-textarea,
+.comment-input {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 14px;
+  padding: 12px 14px;
+  background: #ffffff;
+  outline: none;
+}
+
+.post-textarea:focus,
+.comment-input:focus,
+.file-input:focus {
+  border-color: #1d9bf0;
+  box-shadow: 0 0 0 3px rgba(29, 155, 240, 0.14);
+}
+
+.file-input {
+  width: 100%;
+}
+
+.post-image {
+  width: 100%;
+  margin-top: 14px;
+  border-radius: 16px;
+  object-fit: cover;
+  max-height: 440px;
+  border: 1px solid #e5e7eb;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.details-link {
+  color: #1d4ed8;
+  font-weight: 600;
+}
+
+.details-container .post-card {
+  margin-bottom: 0;
+}
